@@ -1,0 +1,120 @@
+.header__container {
+    height: 55px;
+    width: 100vw;
+    
+    background-color: var(--background);
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    box-shadow: var(--shadow);
+    
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+.header__title {
+    color: var(--txt-secondary);
+    font-size: 26px;
+    font-weight: bold;
+
+}
+.filter__container {
+    margin-top: 105px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.filter__buttons {
+    display: flex;
+    gap:32px;
+}
+.filter__item:hover, .search__button:hover, .list__item > button:hover {
+    background-color: var(--primary);
+    color: var(--txt-secondary);
+    cursor: pointer;
+}
+.search__container {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+.search__button {
+    height: 24px;
+}
+.main__container {
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-between;
+}
+.list__container {
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+
+}
+.list__item {
+    border: 1px solid;
+    
+    padding: 32px;
+    border-radius: var(--radius);
+    
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    
+    width: 271px;
+}
+.list__item > figure > figcaption {
+    margin-top: 64px;
+}
+.list__item > figure > img {
+    width: 271px;
+    height: 175px;
+}
+.list__item > ol {
+    width: 276px;
+    height: 121px;
+
+    list-style: decimal;
+    padding-left: 16px;
+}
+.list__item > button {
+    font-size: 10px;
+    padding: 7px 13px;
+    align-self: flex-end;
+}
+.cart__container {
+    width: 290px;
+    height: 246px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.cart__header {
+    background-color: var(--secondary);
+    color: var(--txt-secondary);
+    width: 290px;
+    height: 50px;
+    border-radius: var(--radius-cart);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.cart__header > img {
+    width: 32px;
+}
+.cart__empty {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 32px;
+
+}
+.cart__empty > figcaption {
+    text-align: center;
+    font-size: 18px;
+}
