@@ -15,20 +15,22 @@ function creatCard(product){
     const figure = document.createElement('figure')
     const productImage = document.createElement('img')
     const productDepartment = document.createElement('figcaption')
+    const productName = document.createElement('h3')
     const buyButton = document.createElement('button')
 
     listItem.classList.add('list__item')
     productImage.src = product.img
     productImage.alt = product.name
     productDepartment.innerText = product.department
-
-    figure.append(productImage, productDepartment)
     
+    figure.append(productDepartment, productImage)
     const componentCard = createComponentsList(product.components)
-
+    
     buyButton.innerText = 'Comprar'
-
-    listItem.append(figure, componentCard, buyButton)
+    productName.innerText= product.name
+    
+    listItem.append(figure, productName, componentCard, buyButton)
+    console.log(productName.innerText)
 
     return listItem
 }

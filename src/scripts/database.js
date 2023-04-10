@@ -78,4 +78,19 @@ const products = [
         'Gorduras totais'
       ]
     },
+    {
+      id: 6,
+      name: 'Yogurte',
+      price: '8.00',
+      department: 'Laticinios',
+      category: 'Leite processado',
+      img: './src/assets/leite.svg',
+      sale: false,
+      salePrice: '1.00',
+      components: [
+        'Carboidratos',
+        'Proteínas',
+        'Gorduras totais'
+      ]
+    },
   ]
