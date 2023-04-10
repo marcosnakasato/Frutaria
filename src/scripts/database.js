@@ -5,7 +5,7 @@ const products = [
       price: '2.00',
       department: 'Hortifruti',
       category: 'fruta',
-      img: "../src/assets/banana.svg",
+      img: "./src/assets/banana.svg",
       sale: true,
       salePrice: '1.00',
       components: [
@@ -21,7 +21,7 @@ const products = [
       price: '2.00',
       department: 'Hortifruti',
       category: 'fruta',
-      img: '../src/assets/morango.svg',
+      img: './src/assets/morango.svg',
       sale: false,
       salePrice: '0',
       components: [
@@ -37,7 +37,7 @@ const products = [
       price: '2.00',
       department: 'Hortifruti',
       category: 'fruta',
-      img: '../src/assets/maca.svg',
+      img: './src/assets/maca.svg',
       sale: true,
       salePrice: '1.50',
       components: [
@@ -53,7 +53,7 @@ const products = [
       price: '4.00',
       department: 'Panificadora',
       category: 'Pães',
-      img: '../src/assets/pao.svg',
+      img: './src/assets/pao.svg',
       sale: true,
       salePrice: '2.50',
       components: [
@@ -69,7 +69,7 @@ const products = [
       price: '5.00',
       department: 'Laticinios',
       category: 'Leite',
-      img: '../src/assets/leite.svg',
+      img: './src/assets/leite.svg',
       sale: false,
       salePrice: '1.00',
       components: [
