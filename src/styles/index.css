@@ -67,7 +67,8 @@
     width: 271px;
 }
 .list__item > figure > figcaption {
-    margin-top: 64px;
+    margin-top: 0px;
+    color: var(--txt-secondary);
 }
 .list__item > figure > img {
     width: 271px;

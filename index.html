@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="./src/styles/reset.css">
     <link rel="stylesheet" href="./src/styles/globalStyle.css">
     <link rel="stylesheet" href="./src/styles/index.css">
-    <title>Variáveis no CSS</title>
+    <title>Dinamizando com métodos</title>
 </head>
 <body>   
     <header class="header__container">
@@ -18,10 +18,10 @@
     </header>
     <section class="filter__container">
         <div class="filter__buttons">
-            <button class="filter__item">Todos Produtos</button>
+            <button class="filter__item">Todos os produtos</button>
             <button class="filter__item">Hortifruti</button>
             <button class="filter__item">Panificadora</button>
-            <button class="filter__item">Laticínios</button>
+            <button class="filter__item">Laticinios</button>
         </div>
         <div class="search__container">
             <input type="text" placeholder="Pesquisar por">
@@ -30,70 +30,7 @@
     </section>
     <main class="main__container">
         <ul class="list__container">            
-            <li class="list__item">
-                <figure>
-                    <img src="./src/assets/banana.svg" alt="bananas">
-                    <figcaption>Hortifruti</figcaption>
-                </figure>
-                <ol>
-                    <li>Potássio</li>
-                    <li>Vitamina B6</li>
-                    <li>Vitamina C</li>
-                    <li>Folatos</li>
-                </ol>
-                <button>Comprar</button>
-            </li>
-            <li class="list__item">
-                <figure>
-                    <img src="./src/assets/morango.svg" alt="morangos">
-                    <figcaption>Hortifruti</figcaption>
-                </figure>
-                <ol>
-                    <li>Fibras</li>
-                    <li>Caálcio</li>
-                    <li>Vitamina C</li>
-                    <li>Ferro</li>
-                </ol>
-                <button>Comprar</button>
-            </li>
-            <li class="list__item">
-                <figure>
-                    <img src="./src/assets/maca.svg" alt="maçãs">
-                    <figcaption>Hortifruti</figcaption>
-                </figure>
-                <ol>
-                    <li>Potássio</li>
-                    <li>Vitamina A</li>
-                    <li>Vitamina E</li>
-                    <li>Vitamina C</li>
-                </ol>
-                <button>Comprar</button>
-            </li>
-            <li class="list__item">
-                <figure>
-                    <img src="./src/assets/pao.svg" alt="pães">
-                    <figcaption>Panificadora</figcaption>
-                </figure>
-                <ol>
-                    <li>Cálcio</li>
-                    <li>Sódio</li>
-                    <li>Fibras Alimentares</li>
-                    <li>Proteínas</li>
-                </ol>
-                <button>Comprar</button>
-            </li>
-            <li class="list__item">
-                <figure>
-                    <img src="./src/assets/leite.svg" alt="garrafas de leite">
-                    <figcaption>Hortifruti</figcaption>
-                </figure>
-                <ol>
-                    <li>Carboidratos</li>
-                    <li>Proteínas</li>
-                    <li>Gorduras totais</li>
-                </ol>
-                <button>Comprar</button>
-            </li>
+            <!--  -->
         </ul>
         <aside class="cart__container">
             <figure class="cart__header">
@@ -108,5 +45,8 @@
             </section>
         </aside>
     </main>
+
+    <script src="./src/scripts/database.js"></script>
+    <script src="./src/scripts/index.js"></script>
 </body>
 </html>
